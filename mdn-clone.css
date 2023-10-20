@@ -6,17 +6,9 @@
   margin-left: -10px;
   width: 100%;
   text-align: center;
-  background-color: grey;
+  /* background-color: grey; */
 }
 .sticky-container {
-  display: flexbox;
-  text-align: flex-start;
-  /* position: fixed; */
-  background-color: antiquewhite;
-  width: 100%;
-  padding: 10px;
-  margin-top: -10px;
-  margin-left: -10px;
 }
 
 .top-navigation-main-items {
@@ -38,6 +30,7 @@
 .document-sidebar-container .sidebar-container .top-navigation-main-header {
   text-align: left;
   margin-bottom: 30px;
+  list-style-type: none;
 }
 .document-sidebar-container .sidebar-container ol li {
   padding: 15px;
@@ -46,7 +39,7 @@
 #main-doc {
   /* background-color: blueviolet; */
   display: flexbox;
-  width: 100%;
+  width: fit-content;
   margin-left: 200px;
   padding: 10px;
   align-items: flex-start;
