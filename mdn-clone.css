@@ -19,11 +19,12 @@
   align-items: center;
   text-decoration: none;
   padding: 30px 10%;
+  margin-bottom: 30px;
 }
 .top-navigation-main-items {
   list-style: none;
 }
-top-navigation-main-items li {
+.top-navigation-main-items li {
   display: inline-block;
   padding: 0px 20px;
 }
@@ -36,12 +37,15 @@ li:hover {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
+  top: 80px;
+  left: 10px;
+  width: 220px;
   height: 100%;
 }
-left-nav-content {
+.left-nav-main-items {
+  margin-bottom: 50px;
+}
+.left-nav-content {
   overflow: auto;
 }
 #main-doc {
@@ -50,4 +54,12 @@ left-nav-content {
   left: 250px;
   width: 60%;
   /* margin: auto; */
+}
+#main-doc,
+h2 {
+  height: 50px;
+}
+
+p {
+  margin-bottom: 10px;
 }
