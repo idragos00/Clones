@@ -43,3 +43,42 @@ ion-icon {
   width: 700px;
   border-radius: 10px;
 }
+
+.nav-container {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  padding: 12px;
+  gap: 40px;
+}
+
+.nav-top span {
+  width: 75%;
+  background-color: #caf0f8;
+  padding: 20px 30px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-middle ul li {
+  font-size: 14px;
+  list-style: none;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  padding: 8px;
+}
+
+.nav-middle ul li a {
+  display: flex;
+  gap: 12px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-middle :hover {
+  color: #748cab;
+}
