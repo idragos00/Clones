@@ -1,6 +1,6 @@
 * {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: large;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,7 +23,6 @@
   box-sizing: border-box;
   margin-left: 10px;
 }
-
 
 li:hover {
   color: #0088a9;
