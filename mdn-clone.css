@@ -16,8 +16,18 @@
   padding: 5px;
   flex-grow: 1;
 }
+
+.main-nav {
+  display: flex;
+  position: fixed;
+  flex-grow: 1;
+  overflow: auto;
+}
+
 .top-navigation-main ul {
   display: flex;
+  /* position: fixed; */
+  flex-grow: 1;
   gap: 30px;
   height: 100%;
   box-sizing: border-box;
@@ -30,6 +40,7 @@ li:hover {
 
 .left-nav {
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   position: fixed;
   top: 80px;
@@ -46,11 +57,13 @@ li:hover {
   overflow: auto;
 }
 #main-doc {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 1000px;
   position: relative;
-  justify-content: center;
   left: 300px;
   width: 60%;
-  /* margin: auto; */
 }
 #main-doc,
 h2 {
@@ -63,9 +76,9 @@ p {
 
 .right-nav {
   display: flex;
-  justify-content: end;
-  /* text-align: end; */
-  /* flex-direction: column; */
+  flex-grow: 1;
+  justify-content: flex-end;
+  overflow: auto;
 }
 .right-nav ol {
   border-left: 2px solid #edf6f9;
