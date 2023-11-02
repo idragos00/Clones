@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.document-top-container {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: red;
+  flex-grow: 1;
+}
+
+.top-navigation-main ul {
+  background-color: aqua;
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  box-sizing: border-box;
+}
