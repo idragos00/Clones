@@ -41,7 +41,8 @@
   background-color: blue;
   margin-top: 0px;
   display: flex;
-  position: static;
+  position: absolute;
+  top: 70px;
   justify-content: center;
   flex-direction: column;
   flex-grow: 1;
