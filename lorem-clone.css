@@ -13,7 +13,7 @@
   flex-grow: 1;
 }
 
-.main-nav{
+.main-nav {
   display: flex;
   position: sticky;
 }
@@ -39,6 +39,7 @@
 
 #main-doc-flex {
   background-color: blue;
+  margin-top: 0px;
   display: flex;
   position: static;
   justify-content: center;
@@ -78,4 +79,22 @@
   text-decoration: none;
   list-style-type: none;
 }
+.left-nav-content {
+  overflow: auto;
+}
 
+.right-nav {
+  display: flex;
+  position: relative;
+  left: 90%;
+  padding: 10px;
+  width: 100px;
+  /* background-color: blueviolet; */
+}
+
+.right-nav-main-items {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 30px;
+}
