@@ -83,3 +83,19 @@ ion-icon {
   color: #748cab;
 }
 
+.main-content {
+  margin-top: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--middle-gray);
+}
+
+.content-icon,
+.star {
+  transition: all 0.3s;
+  width: 16px;
+  height: 16px;
+  color: var(--dark-gray);
+  padding: 8px;
+  border-radius: 50%;
+}
