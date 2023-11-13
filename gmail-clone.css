@@ -99,3 +99,16 @@ ion-icon {
   padding: 8px;
   border-radius: 50%;
 }
+
+.chev {
+  color: #b1b1b1;
+}
+
+.main-content .top {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  background-color: var(--dark-gray);
+}
